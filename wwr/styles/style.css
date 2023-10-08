@@ -1,0 +1,86 @@
+/* styles/style.css */
+
+/* Apply a background color to the body */
+body {
+    background-color: #fcfbfb;
+    color: #333; /* Text color */
+    font-family: Arial, sans-serif; /* Specify your preferred font */
+}
+
+/* Add a background color and text color to the header */
+header {
+    background-color: rgba(20, 30, 13, 0.7); /* Background color with transparency */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Style navigation links */
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: #fcfbfb;
+}
+
+/* Apply hover effect to navigation links */
+nav a:hover {
+    background-color: #000; /* Background color on hover */
+    color: #d9c2a3; /* Text color on hover */
+}
+
+/* Style logo and icons */
+.logo,
+.icon {
+    width: 80px;
+}
+
+/* Apply a width of 100% to the hero image */
+#hero-img {
+    width: 100%;
+}
+
+/* Center the entire page content */
+#content {
+    max-width: 1600px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Center specific elements */
+nav a,
+.home-title,
+h4,
+.button-box,
+main section {
+    text-align: center;
+}
+
+/* Create a background container */
+#background {
+    height: 725px;
+    /* You can add a background color here */
+}
+
+/* Style the message section */
+.msg {
+    background-color: #f2f2f2; /* Background color for the message section */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style footer links */
+footer a {
+    text-decoration: none; /* Remove underline */
+    color: #fcfbfb;
+}
+
+/* Apply hover effect to footer links */
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
