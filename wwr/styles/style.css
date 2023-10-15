@@ -177,6 +177,12 @@ footer {
     border-radius: 5px;
     background-color: #396E94;
     text-decoration:none;
+    background-color: #396E94;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
 }
 
 
@@ -205,4 +211,20 @@ header {
 nav a:hover {
     background-color: #D4AC0D;
 }
+
+.book:hover, .join:hover{
+    background-color: #D4AC0D;
+    color: #000; }
+    
+
+
+.button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
 
