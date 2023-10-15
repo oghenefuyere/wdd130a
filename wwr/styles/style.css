@@ -172,8 +172,7 @@ footer .social img {
 footer {
     margin-top: 200px;
 }
-.book,
-.join {
+.book, .join {
     border-radius: 5px;
 }
 
@@ -184,3 +183,20 @@ footer {
 main section img {
     box-sizing: border-box;
 }
+
+#background{
+    background-color: #fcfbfb; 
+}
+
+
+
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+}
+nav a:hover {
+    background-color: black;
+}
+                    
