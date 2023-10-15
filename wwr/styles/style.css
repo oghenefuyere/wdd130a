@@ -173,7 +173,7 @@ footer {
     margin-top: 200px;
     background-color: #396E94;
 }
-a:hover .book, .join {
+.book, .join {
     border-radius: 5px;
     background-color: #396E94;
     text-decoration:none;
@@ -195,6 +195,7 @@ main section img {
 
 
 
+
 body {
     background-color:  #ffffff; 
 }
@@ -204,4 +205,4 @@ header {
 nav a:hover {
     background-color: #D4AC0D;
 }
-                    
+
