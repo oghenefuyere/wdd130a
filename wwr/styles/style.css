@@ -1,6 +1,6 @@
 /* styles/style.css */
 /* Apply a background color to the body */
-@import url('https://fonts.googleapis.com/css?family=YourChosenFont');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Oswald:wght@700&display=swap');
 body {
     background-color: #fcfbfb;
     color: #333; /* Text color */
@@ -87,11 +87,11 @@ footer a:hover {
 /** added font */
 
 body {
-    font-family: 'YourChosenFont', Arial, sans-serif;
+    font-family: 'Open Sans' Helvetica, Arial, sans-serif;
 }
 
 .home-title {
-    font-family: 'YourChosenHeadlineFont', Arial, sans-serif;
+    font-family: 'Oswald', Arial, sans-serif;
 }
 body {
     font-size: 22px;
