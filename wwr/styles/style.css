@@ -1,6 +1,7 @@
 /* styles/style.css */
 
 /* Apply a background color to the body */
+@import url('https://fonts.googleapis.com/css?family=YourChosenFont');
 body {
     background-color: #fcfbfb;
     color: #333; /* Text color */
@@ -83,4 +84,103 @@ footer a {
 /* Apply hover effect to footer links */
 footer a:hover {
     text-decoration: underline; /* Underline on hover */
+}
+/** added font */
+
+body {
+    font-family: 'YourChosenFont', Arial, sans-serif;
+}
+
+.home-title {
+    font-family: 'YourChosenHeadlineFont', Arial, sans-serif;
+}
+body {
+    font-size: 22px;
+}
+
+.home-title {
+    font-size: 2em;
+}
+
+.book,
+.join {
+    font-size: 18px;
+}
+
+.msg p {
+    font-size: 0.8em;
+}
+.msg {
+    line-height: 1.5em;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+nav a {
+    padding: 35px;
+}
+
+.book,
+.join {
+    padding: 15px 30px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.msg {
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+footer {
+    padding: 25px 50px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+.home-title {
+    margin-top: 10px;
+}
+
+.book,
+.join {
+    margin-top: 50px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+footer {
+    margin-top: 200px;
+}
+.book,
+.join {
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3; /* You can replace with your color */
+}
+
+main section img {
+    box-sizing: border-box;
 }
