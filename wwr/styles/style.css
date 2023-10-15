@@ -1,5 +1,4 @@
 /* styles/style.css */
-
 /* Apply a background color to the body */
 @import url('https://fonts.googleapis.com/css?family=YourChosenFont');
 body {
@@ -161,6 +160,7 @@ footer .social img {
 .book,
 .join {
     margin-top: 50px;
+    -webkit-text-fill-color: #ffffff;
 }
 
 .rivers-card,
@@ -171,10 +171,15 @@ footer .social img {
 
 footer {
     margin-top: 200px;
+    background-color: #396E94;
 }
-.book, .join {
+a:hover .book, .join {
     border-radius: 5px;
+    background-color: #396E94;
+    text-decoration:none;
 }
+
+
 
 .card-img {
     border: 10px solid #d9c2a3; /* You can replace with your color */
@@ -185,18 +190,18 @@ main section img {
 }
 
 #background{
-    background-color: #ec0404; 
+    background-color:  #ffffff; 
 }
 
 
 
 body {
-    background-color: #121212; 
+    background-color:  #ffffff; 
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color: #396E94;
 }
 nav a:hover {
-    background-color: black;
+    background-color: #D4AC0D;
 }
                     
