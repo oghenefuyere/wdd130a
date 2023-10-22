@@ -52,6 +52,9 @@
 } 
 /* Activity 3 styles */ 
 .content3 {
+  width: 100px; 
+  height: 100px; 
+  background-color: red; 
   /* This is the parent of the activity 3 boxes. */
 }
 .red3 {
