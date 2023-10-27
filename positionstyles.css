@@ -5,6 +5,10 @@
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   gap: 20px;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
   /* This is the parent of the activity 1 boxes. */
 
 }
@@ -36,6 +40,10 @@
 .content2 {
  grid-template-columns: 50px 50px 50px 50px;
  gap: 0px;
+ justify-items: center;
+align-items: center;
+justify-content: center;
+align-content: center;
 
   /* This is the parent of the activity 2 boxes. */
 }
@@ -71,7 +79,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-  
+  justify-content: center;
+align-content: center;
+justify-items: center;
+align-items: center;
  
   /* This is the parent of the activity 1 boxes. */
 
