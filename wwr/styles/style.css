@@ -36,6 +36,8 @@ nav a:hover {
 /* Apply a width of 100% to the hero image */
 #hero-img {
     width: 100%;
+    background-color: #000000;
+    opacity: 100%;
 }
 
 /* Center the entire page content */
@@ -46,7 +48,7 @@ nav a:hover {
 
 /* Center specific elements */
 nav a,
-.home-title,
+.home-title, .rivers-title,
 h4,
 .button-box,
 main section {
@@ -91,14 +93,14 @@ body {
     font-family: 'Open Sans' Helvetica, Arial, sans-serif;
 }
 
-.home-title {
+.home-title, .rivers-title {
     font-family: 'Oswald', Arial, sans-serif;
 }
 body {
     font-size: 22px;
 }
 
-.home-title {
+.home-title,.rivers-title {
     font-size: 2em;
     color:#f2f2f2
 }
@@ -320,7 +322,7 @@ nav {
     #hero-msg h4 {
         display: none;
     }
-    .home-title {
+    .home-title, .rivers-title {
         font-size: 25px;
         color: #6f7364;
     }
@@ -480,7 +482,7 @@ footer {
         display: none;
     }
 
-    .home-title {
+    .home-title, .rivers-title {
         font-size: 25px;
         color: #6f7364;
     }
@@ -503,4 +505,32 @@ footer {
     footer {
         margin-top: 25px;
     }
+}
+/* River page */
+.msg-rivers {
+    padding: 20px;
+    text-align: justify;
+    margin-left: 530px;
+    margin-right: 500px;
+    
+}
+
+.rivers-intro{
+    text-align: center;
+}
+
+.rivers-img{
+    height: 450px;
+    width: 800px;
+    margin-left: 550px;
+    margin-right: 250px;
+    border: 10px solid #d9c2a3;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.rivers-title{
+    padding-bottom: 50%;
+    padding-top: 50%;
+    text-shadow: solid #000;
+    outline: 10px orange; 
 }
