@@ -173,3 +173,8 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.home-images, img{
+  height: 100%;
+  width: 60%;
+  padding: 10px;
+}
