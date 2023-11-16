@@ -7,15 +7,6 @@ body {
     font-family: Arial, sans-serif; /* Specify your preferred font */
 }
 
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 /* Add a background color and text color to the header */
 header {
     background-color: rgba(20, 30, 13, 0.7); /* Background color with transparency */
@@ -28,7 +19,6 @@ header {
 nav a {
     text-decoration: none; /* Remove underline */
     color: #fcfbfb;
-    padding: 5px !important;
 }
 
 /* Apply hover effect to navigation links */
@@ -518,8 +508,11 @@ footer {
 }
 /* River page */
 .msg-rivers {
-  padding: 40px;
-  text-align: justify;
+    padding: 20px;
+    text-align: justify;
+    margin-left: 530px;
+    margin-right: 500px;
+    
 }
 
 .rivers-intro{
@@ -527,27 +520,17 @@ footer {
 }
 
 .rivers-img{
-   
+    height: 450px;
+    width: 800px;
+    margin-left: 550px;
+    margin-right: 250px;
     border: 10px solid #d9c2a3;
     transition: transform 0.5s;
     box-shadow: 5px 5px 10px #6f7364;
-    width: 60%;
-    
 }
 .rivers-title{
-    padding-bottom: 30%;
+    padding-bottom: 50%;
     padding-top: 50%;
     text-shadow: solid #000;
     outline: 10px orange; 
 }
-.img-wrap{
-    display: flex;
-    justify-content: center;
-    margin: 100px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-}
-
-
-
-

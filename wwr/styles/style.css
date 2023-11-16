@@ -164,7 +164,7 @@ footer .social img {
 
 .book,
 .join {
-    margin-top: 50px;
+    margin-top: 200px;
     -webkit-text-fill-color: #ffffff;
 }
 
@@ -508,11 +508,8 @@ footer {
 }
 /* River page */
 .msg-rivers {
-    padding: 20px;
-    text-align: justify;
-    margin-left: 530px;
-    margin-right: 500px;
-    
+  padding: 40px;
+  text-align: justify;
 }
 
 .rivers-intro{
@@ -520,17 +517,30 @@ footer {
 }
 
 .rivers-img{
-    height: 450px;
-    width: 800px;
-    margin-left: 550px;
-    margin-right: 250px;
+   
     border: 10px solid #d9c2a3;
     transition: transform 0.5s;
     box-shadow: 5px 5px 10px #6f7364;
+    width: 60%;
+    
 }
 .rivers-title{
-    padding-bottom: 50%;
+    padding-bottom: 30%;
     padding-top: 50%;
     text-shadow: solid #000;
     outline: 10px orange; 
 }
+.img-wrap{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.book1{
+    margin-top: 50px;
+
+}
+
+
+
