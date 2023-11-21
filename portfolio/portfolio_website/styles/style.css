@@ -24,7 +24,7 @@ nav a {
 /* Apply hover effect to navigation links */
 nav a:hover {
     background-color: #000; /* Background color on hover */
-    color: #d9c2a3; /* Text color on hover */
+    color: #8CBDA5; /* Text color on hover */
 }
 
 /* Style logo and icons */
@@ -170,7 +170,7 @@ header {
     background-color: #396E94;
 }
 nav a:hover {
-    background-color: #D4AC0D;
+    background-color:#8CBDA5;
 }
 
 header {
@@ -274,6 +274,9 @@ h2{
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+
+
 
   
 
