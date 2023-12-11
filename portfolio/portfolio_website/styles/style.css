@@ -1,10 +1,22 @@
 /* styles/style.css */
 /* Apply a background color to the body */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 body {
     background-color: #fcfbfb;
     color: #333; /* Text color */
-    font-family: Arial, sans-serif; /* Specify your preferred font */
+    font-family: 'Roboto', sans-serif; /* Specify your preferred font */
+    font-size: 22px;
+}
+.home-title{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+nav a, p{font-family: 'Roboto', sans-serif; /* Specify your preferred font */
+color: #396E94;
 }
 
 /* Add a background color and text color to the header */
@@ -91,16 +103,6 @@ footer a:hover {
 }
 /** added font */
 
-body {
-    font-family: 'Open Sans' Helvetica, Arial, sans-serif;
-}
-
-.home-title{
-    font-family: 'Oswald', Arial, sans-serif;
-}
-body {
-    font-size: 22px;
-}
 
 .home-title,.rivers-title {
     font-size: 2em;
@@ -247,15 +249,10 @@ footer {
 .ina p{
   margin-left: 10px;
   margin-left: 25px;
-  
-  
 }
-
 .faa{
   background-color: #000;
-
 }
-
 .map-container img {
   max-width: 40%;
   height: auto;
@@ -268,11 +265,6 @@ margin-left: 25px;
 display: flex;
 justify-content: start;
 }
-
-
-
-
-
 .map-container > div:first-child {
   flex: 0 0 50%; /* Adjust this value as needed */
 }
@@ -332,11 +324,6 @@ justify-content: start;
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-
-
-
-
-
 #home-box {
     width: 1000px;
     margin: 0 auto;
@@ -346,11 +333,6 @@ justify-content: start;
 .home-img {
   width: 1000px;
   border: 2px solid #3498db;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box-shadow for depth */
-  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease; /* Add transitions for a smoother effect */
-}
-.home-img:hover {
-  transform: scale(1.1);
 }
 
 #main-box {
@@ -534,7 +516,6 @@ iframe {
 
 /* This centers the image horizontally within the container */
 body {
-    font-family: Arial;
     margin: 0;
   }
   
